@@ -157,7 +157,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         super.onStart()
         //Log.i("MainActivity","onStart called")
         Timber.i("onStart called")
-        dessertTimer.startTimer()
+        //dessertTimer.startTimer()
     }
 
     override fun onResume() {
@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     override fun onStop() {
         super.onStop()
         Timber.i("onStop called")
-        dessertTimer.stopTimer()
+       // dessertTimer.stopTimer()
     }
 
     override fun onDestroy() {
